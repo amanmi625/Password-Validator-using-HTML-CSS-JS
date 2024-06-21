@@ -1,35 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel ="icon" type="N.png" href="N.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claymorphism Registration Form - Nikhilism</title>
+    <title>Confirm Passowrd Validation With JavaScript - Nikhilism</title>
+    
+
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
 
     <!--stylesheet-->
+
     <link rel="stylesheet" href="STYLE.CSS">
 </head>
 <body>
-    <div class="login">
-        <h2>Create An Account</h2>
-        <div class="login-item">
-            <input type="text" placeholder="Full Name">
+    <div class="container">
+        
+        <h2>Confirm Password Validation using HTML, CSS & JavaScript</h2>
+        <span class="divider"></span>
+
+        <div class="input-form">
+            <div class="input-box">
+                <label for="">Password</label>
+                <input type="password" id="password1" class="input-field" placeholder="Enter password">
+                <span class="toggle fa fa-eye"></span>
+            </div>
+            <div class="input-box">
+                <label for="">Confirm Password</label>
+                <input type="password" id="password2" class="input-field" placeholder="Enter password Again!">
+                <span class="toggle2 fa fa-eye"></span>
+            </div>
+            <button class="input-btn">Submit</button>
         </div>
-        <div class="login-item">
-            <input type="email" placeholder="Email ID">
+        <div class="alert-box">
+            <p></p>
         </div>
-        <div class="login-item">
-            <input type="text" placeholder="Username">
-        </div>
-        <div class="login-item">
-            <input type="password" placeholder="Password">
-        </div>
-        <button class="login-button">Create Account</button>  
-        <div class="login-footer">
-            <a href="#">Already have an account?</a>
-        </div>    
     </div>
+
+    <!---script-->
+    <script src="SCRIPT.JS"></script>
 </body>
 </html>
